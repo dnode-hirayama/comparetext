@@ -245,7 +245,7 @@ Sub CheckIFDataValue()
                     cellIFDataValue = .Cells(i, j).value
                     
                     ' ‹ó”’ƒZƒ‹‚ÍƒXƒLƒbƒv
-                    If IsEmpty(cellIFDataValue) Then
+                    If cellIFDataValue = "" Or IsEmpty(cellIFDataValue) Then
                         GoTo NextCell
                     End If
 
@@ -384,17 +384,14 @@ Function CheckDataType(ByVal value As Variant, ByVal dataType As String) As Bool
                 ' ®”Œ^‚Ì”»’è
                 CheckDataType = IsNumeric(value) And (CLng(value) = value) And (InStr(CStr(value), ".") = 0)
             Case "Double"
-                ' •‚“®¬”“_Œ^‚Ì”»’è
                 CheckDataType = IsNumeric(value) And (CDbl(value) = value)
             Case "Decimal"
                 ' ¬”Œ^‚Ì”»’è
                 CheckDataType = IsNumeric(value) And (CDbl(value) = value)
             Case "Date"
                 ' “ú•tŒ^‚Ì”»’è
-                If IsNumeric(value) Then
+                If IsNumeric(value) = True Then
                     CheckDataType = False
-                ElseIf value = "" Then
-                    CheckDataType = True
                 Else
                     CheckDataType = IsDate(value)
                 End If
