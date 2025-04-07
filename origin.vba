@@ -124,6 +124,11 @@ Sub CheckIFDataValue()
                                     'ƒZƒ‹‚ð‰©F‚É•ÏX
                                     .Cells(i, j).Interior.Color = vbYellow
                                     
+                                    'ƒJƒ‰ƒ€ƒwƒbƒ_[‚ð‰©F‚É•ÏX
+                                    .Cells(1, j).Interior.Color = vbYellow
+                                    .Cells(2, j).Interior.Color = vbYellow
+                                    .Cells(3, j).Interior.Color = vbYellow
+                                    
                                     'ƒRƒƒ“ƒg•Û‘¶—p‚Ì•Ï”‚ð‰Šú‰»
                                     cellComment = ""
                                     
@@ -201,6 +206,11 @@ Sub CheckIFDataValue()
                                     'ƒZƒ‹‚ð‰©F‚É•ÏX
                                     .Cells(i, j).Interior.Color = vbYellow
                                     
+                                    'ƒJƒ‰ƒ€ƒwƒbƒ_[‚ð‰©F‚É•ÏX
+                                    .Cells(1, j).Interior.Color = vbYellow
+                                    .Cells(2, j).Interior.Color = vbYellow
+                                    .Cells(3, j).Interior.Color = vbYellow
+                                    
                                     'ƒRƒƒ“ƒg•Û‘¶—p‚Ì•Ï”‚ð‰Šú‰»
                                     cellComment = ""
                                     
@@ -275,6 +285,11 @@ Sub CheckIFDataValue()
                         'ƒZƒ‹‚ð‰©F‚É•ÏX
                         .Cells(i, j).Interior.Color = vbYellow
                         
+                        'ƒJƒ‰ƒ€ƒwƒbƒ_[‚ð‰©F‚É•ÏX
+                        .Cells(1, j).Interior.Color = vbYellow
+                        .Cells(2, j).Interior.Color = vbYellow
+                        .Cells(3, j).Interior.Color = vbYellow
+                        
                         'ƒRƒƒ“ƒg•Û‘¶—p‚Ì•Ï”‚ð‰Šú‰»
                         cellComment = ""
                         
@@ -311,6 +326,11 @@ Sub CheckIFDataValue()
                         
                         'ƒZƒ‹‚ð‰©F‚É•ÏX
                         .Cells(i, j).Interior.Color = vbYellow
+                        
+                        'ƒJƒ‰ƒ€ƒwƒbƒ_[‚ð‰©F‚É•ÏX
+                        .Cells(1, j).Interior.Color = vbYellow
+                        .Cells(2, j).Interior.Color = vbYellow
+                        .Cells(3, j).Interior.Color = vbYellow
                         
                         'ƒRƒƒ“ƒg•Û‘¶—p‚Ì•Ï”‚ð‰Šú‰»
                         cellComment = ""
